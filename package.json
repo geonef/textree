@@ -11,6 +11,7 @@
     "jean-François Gigand <jf@geonef.fr> (https://github.com/jfgigand)"
   ],
   "license": "GPL-3.0",
+  "bin" : { "textree-request" : "./bin/request", "textree-service": "./bin/service", "textree-stream": "./bin/textree" }
   "main": "lib/textree.js",
   "dependencies": {
     "kew": "0.4.0",
