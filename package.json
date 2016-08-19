@@ -11,12 +11,17 @@
     "jean-François Gigand <jf@geonef.fr> (https://github.com/jfgigand)"
   ],
   "license": "GPL-3.0",
-  "bin" : { "textree-request" : "./bin/request", "textree-service": "./bin/service", "textree-stream": "./bin/textree" },
+  "bin": {
+    "textree-request": "./bin/request",
+    "textree-service": "./bin/service",
+    "textree-stream": "./bin/textree"
+  },
   "main": "lib/textree.js",
   "dependencies": {
+    "csv-parse": "^1.1.7",
     "kew": "0.4.0",
-    "nodegit": "0.15.1",
     "mc": "1.0.6",
-    "minimatch": "3.0.2"
+    "minimatch": "3.0.2",
+    "nodegit": "0.15.1"
   }
 }
