@@ -1,7 +1,7 @@
 {
   "name": "textream",
   "description": "Textree is a Jade-like syntax processor that allows easy writing of HTML or XML files with auto-templating and Javascript-based scripting features.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/geonef/textree",
   "repository": {
     "type": "git",
