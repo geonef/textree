@@ -1,27 +1,92 @@
 {
-  "name": "textream",
-  "description": "Textree is a Jade-like syntax processor that allows easy writing of HTML or XML files with auto-templating and Javascript-based scripting features.",
-  "version": "1.0.4",
-  "homepage": "https://github.com/geonef/textree",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/geonef/textree.git"
+  "_args": [
+    [
+      {
+        "raw": "textream",
+        "scope": null,
+        "escapedName": "textream",
+        "name": "textream",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/sysconf/sysconf.textree"
+    ]
+  ],
+  "_from": "textream@latest",
+  "_id": "textream@1.0.4",
+  "_inCache": true,
+  "_location": "/textream",
+  "_nodeVersion": "6.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/textream-1.0.4.tgz_1474441836143_0.5589503729715943"
   },
+  "_npmUser": {
+    "name": "jfgigand",
+    "email": "jf@geonef.fr"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "textream",
+    "scope": null,
+    "escapedName": "textream",
+    "name": "textream",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/textream/-/textream-1.0.4.tgz",
+  "_shasum": "6e2bcae3118ba56d4931d2e06299aeafa6540648",
+  "_shrinkwrap": null,
+  "_spec": "textream",
+  "_where": "/sysconf/sysconf.textree",
   "authors": [
     "jean-François Gigand <jf@geonef.fr> (https://github.com/jfgigand)"
   ],
-  "license": "GPL-3.0",
   "bin": {
     "textree-request": "./bin/request",
     "textree-service": "./bin/service",
     "textree-stream": "./bin/textree"
   },
-  "main": "lib/textree.js",
+  "bugs": {
+    "url": "https://github.com/geonef/textree/issues"
+  },
   "dependencies": {
     "csv-parse": "^1.1.7",
     "kew": "0.4.0",
     "mc": "1.0.6",
     "minimatch": "3.0.2",
     "nodegit": "0.15.1"
-  }
+  },
+  "description": "Textree is a Jade-like syntax processor that allows easy writing of HTML or XML files with auto-templating and Javascript-based scripting features.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "6e2bcae3118ba56d4931d2e06299aeafa6540648",
+    "tarball": "https://registry.npmjs.org/textream/-/textream-1.0.4.tgz"
+  },
+  "gitHead": "355c0cb6e3cf7d187678fff10d3a1426906edb8a",
+  "homepage": "https://github.com/geonef/textree",
+  "license": "GPL-3.0",
+  "main": "lib/textree.js",
+  "maintainers": [
+    {
+      "name": "jfgigand",
+      "email": "jf@geonef.fr"
+    }
+  ],
+  "name": "textream",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geonef/textree.git"
+  },
+  "scripts": {},
+  "version": "1.0.4"
 }
