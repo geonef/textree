@@ -65,7 +65,7 @@ ConsoleFilter.prototype._transform = function(chunk, encoding, done) {
 var path = process.argv[2] || "";
 var routePath;
 var env = require("../lib/env");
-env.init()
+env.init({ enableGit: true })
   .then(function() {
 
     routePath = new RoutePath(path);

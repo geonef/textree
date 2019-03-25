@@ -61,7 +61,7 @@
     "kew": "0.4.0",
     "mc": "1.0.6",
     "minimatch": "3.0.2",
-    "nodegit": "0.15.1"
+    "node-expat": "^2.3.17"
   },
   "description": "Textree is a Jade-like syntax processor that allows easy writing of HTML or XML files with auto-templating and Javascript-based scripting features.",
   "devDependencies": {},
@@ -81,7 +81,9 @@
     }
   ],
   "name": "textream",
-  "optionalDependencies": {},
+  "optionalDependencies": {
+    "nodegit": "0.15.1"
+  },
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",

@@ -25,7 +25,8 @@ if (args.length == 0) {
   var env = require("../lib/env");
   var readable = process.stdin;
 
-  env.init().then(function() {
+  // TODO: Git repo may be needed in some cases; but bin/textree is basically a pure-stream processor
+  env.init({ enableGit: false }).then(function() {
     var transforms = [process.stdin];
 
     args.forEach(function(arg) {

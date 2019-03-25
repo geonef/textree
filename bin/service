@@ -24,4 +24,4 @@ function startServer() {
   }
 }
 
-env.init().then(startServer).done();
+env.init({ enableGit: true }).then(startServer).done();
