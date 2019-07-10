@@ -58,6 +58,7 @@
   },
   "dependencies": {
     "csv-parse": "^1.1.7",
+    "ical": "^0.6.0",
     "kew": "0.4.0",
     "mc": "1.0.6",
     "minimatch": "3.0.2",
