@@ -57,7 +57,7 @@
     "url": "https://github.com/geonef/textree/issues"
   },
   "dependencies": {
-    "csv-parse": "^1.1.7",
+    "csv-parse": "^4.6.5",
     "kew": "0.4.0",
     "mc": "1.0.6",
     "minimatch": "3.0.2",
